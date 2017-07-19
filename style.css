@@ -7,6 +7,7 @@ header{        /*Top Orange Area*/
 header > nav {     /*Navigation Buttons*/
   margin-bottom: auto;
   padding: 20px 5px;
+  font-size: 14px;
 }
 header > nav > a{
   text-decoration: none;
@@ -23,8 +24,9 @@ body p a {
 }
 ul{
   margin-bottom: 10vh;
+  font-weight: bold;
 }
-h2{
+h2, h3{
   color: #1fabe5;
 }
 section{
@@ -33,7 +35,10 @@ section{
   border-width: 3px;
   border-radius: 3px;
 }
-
+table img {
+  height:40px;
+  padding: 5px;
+}
 thead td{
   background-color: #1fabe5;
   text-align: left;
@@ -47,20 +52,36 @@ table, td{
   border: 1px solid #046c97;
   border-collapse: collapse;
 }
+form{
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 20px;
+}
+.name label {
+  color: white;
+}
 .name{
   background-color: #ff8523;
-  border: solid 5px #eee;
+  border-color: #ff8523;
+  padding: 20px;
   border-radius: 3px;
-  padding: 5px;
-  max-width: 85%;
 }
-section form{
-  background-color: #eee;
-  border-radius: 3px;
-  max-width: 90%;
+form{
+  padding: 10px;
+}
+.city_container{
+  margin: 2px 10px;
+  padding: 10px;
+}
+form > div{
+  margin: 2px 10px;
 }
 textarea{
-  max-width: 85%;
+  margin: 2px 10px;
+  padding: 10px;
+}
+.submit_container{
+  color: #1fabe5;
 }
 /*
 font info:
