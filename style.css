@@ -1,8 +1,24 @@
+body{
+  margin: 0;
+  font-size: 10pt;
+  font-weight: lighter;
+  font family: - Helvetica, Arial, sans-serif;
+      line-height - 1.6;
+}
+body p{
+  font-size: 12px;
+}
 header{        /*Top Orange Area*/
-  height: 15vh;
+  height: 10%;
   background-color: #ff8523;
   border: solid;
   border-color: #ff8523;
+}
+#site_header{
+  margin-bottom: 45px;
+}
+#page_content{
+  margin: 15px;
 }
 header > nav {     /*Navigation Buttons*/
   margin-bottom: auto;
@@ -14,7 +30,7 @@ header > nav > a{
   color: white;
   border: solid;
   border-width: 1px;
-  padding: 5px;
+  padding: 5px 20px;
   align-items: center;
   border-radius: 3px;
   border-color: white;
@@ -23,13 +39,15 @@ body p a {
   color: #1fabe5;
 }
 ul{
-  margin-bottom: 10vh;
+  margin: 5px 0 30px 0;
   font-weight: bold;
+  font-size: 12px;
 }
 h2, h3{
   color: #1fabe5;
 }
 section{
+  width: 98%;
   border-top: solid;
   border-color: #dddddd;
   border-width: 3px;
@@ -42,11 +60,17 @@ table img {
 thead td{
   background-color: #1fabe5;
   text-align: left;
-  height: 5vh;
+  height: 20px;
   color: white;
+  font-size: 10px;
+  padding: 5px;
 }
 tbody td{
-  max-height: 10vh;
+  font-size: 10px;
+  padding: 5px;
+}
+table{
+  width: 100%;
 }
 table, td{
   border: 1px solid #046c97;
@@ -55,33 +79,42 @@ table, td{
 form{
   background-color: #eee;
   border-radius: 5px;
-  margin: 20px;
+  margin: 0px;
+  padding: 10px;
 }
 .name label {
   color: white;
+  font-size: 11px;
+  font-weight: 200;
 }
 .name{
   background-color: #ff8523;
   border-color: #ff8523;
   padding: 20px;
   border-radius: 3px;
-}
-form{
-  padding: 10px;
+  margin: 0;
 }
 .city_container{
-  margin: 2px 10px;
+  font-weight: bold;
+  margin: 0px;
   padding: 10px;
 }
 form > div{
   margin: 2px 10px;
+  font-weight: bold;
 }
 textarea{
-  margin: 2px 10px;
-  padding: 10px;
+  width: 99%;
+  margin: 10px 0;
+  border-color: #1fabe5;
 }
-.submit_container{
-  color: #1fabe5;
+.submit_container > input{
+    background-color: #1fabe5;
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
 }
 /*
 font info:
