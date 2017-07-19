@@ -1,0 +1,77 @@
+header{        /*Top Orange Area*/
+  height: 15vh;
+  background-color: #ff8523;
+  border: solid;
+  border-color: #ff8523;
+}
+header > nav {     /*Navigation Buttons*/
+  margin-bottom: auto;
+  padding: 20px 5px;
+}
+header > nav > a{
+  text-decoration: none;
+  color: white;
+  border: solid;
+  border-width: 1px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 3px;
+  border-color: white;
+}
+body p a {
+  color: #1fabe5;
+}
+ul{
+  margin-bottom: 10vh;
+}
+h2{
+  color: #1fabe5;
+}
+section{
+  border-top: solid;
+  border-color: #dddddd;
+  border-width: 3px;
+  border-radius: 3px;
+}
+
+thead td{
+  background-color: #1fabe5;
+  text-align: left;
+  height: 5vh;
+  color: white;
+}
+tbody td{
+  max-height: 10vh;
+}
+table, td{
+  border: 1px solid #046c97;
+  border-collapse: collapse;
+}
+.name{
+  background-color: #ff8523;
+  border: solid 5px #eee;
+  border-radius: 3px;
+  padding: 5px;
+  max-width: 85%;
+}
+section form{
+  background-color: #eee;
+  border-radius: 3px;
+  max-width: 90%;
+}
+textarea{
+  max-width: 85%;
+}
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+colors:
+    light gray - #eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
